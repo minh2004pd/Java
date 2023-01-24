@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Đăng ký trang web</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="text-center" id="title">Đăng ký tài khoản</h1>
+        <p class="text-center" id="description">vui lòng điền đầy đủ thông tin</p>
+        <form id="survey-form" action="">
+        <div>
+            <label id="name-label" for="name" >Name<input id="name" name="name" type="text" required placeholder="Enter your Name" /></label>
+            <label id="email-label" for="email" >Email<input id="email" name="email" type="email" required placeholder="Enter your email" /></label>
+            <label id="number-label" for="number" >Age<input id="number" name="age" type="number" placeholder="Enter your age" min="10" max="100"></label>
+        </div>
+        <div>
+            <label for="dropdown">Which option best describes your current role?
+                <select id="dropdown" name="referrer">
+                    <option value="">select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full time job</option>
+                    <option value="3">Full time learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">No one</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <label for="select"><input value="select" id="select" name="check" type="radio" checked>Definitely</label>
+            <label for="Maybe"><input value="Maybe" id="Maybe" name="check" type="radio">Maybe</label>
+            <label>What would you like to see improved?(Check all that apply)</label>
+            <label for="check"><input value="1" type="checkbox" id="check">Front-end</label>
+            <label for="check"><input value="2" type="checkbox" id="check">Back-end</label>
+            <label for="bio">Any comments or suggestions?
+                <textarea id="bio" placeholder="Enter your comment here..."></textarea>
+            </label>
+        </div>
+        <input id="submit" type="submit" value="Submit">  
+        </form>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-image: url(http://cdn.tgdd.vn/Files/2020/12/15/1314041/10-bo-phim-han-quoc-bat-hu-ma-ban-khong-the-bo-qua-202206071001197983.jpg);
+}
+.menu{
+    width: 90%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+h1,p,h4{
+    text-align: center;
+    color: aliceblue;
+}
+.established{
+    font-style: italic;
+}
+hr{
+    height: 2px;
+    background-color: white;
+    border-color: white;
+}
+h2{
+    color:bisque;
+}
+
+h4{
+    color: red;
+}
+
+.left{
+    padding-right: 80%;
+}
+.right{
+    padding-left: auto;
+}
+.mid{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inline h1,img{
+    display: inline-block;
+}
+.leftimg{
+    padding-left: 33%;
+}
